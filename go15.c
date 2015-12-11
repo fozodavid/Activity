@@ -51,7 +51,7 @@ int illegalMove = 1;
 while(illegalMove){
 
 printf("What direction do you want to move?(w,a,s,d)\n");
-scanf("%s", &direction);
+scanf("%c", &direction);
 //direction = 'w';
 //gets(&direction);
 
